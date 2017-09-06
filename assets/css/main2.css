@@ -99,3 +99,14 @@
 {
     margin-right: 10px;
 }
+
+/*html consolas*/
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.slides{
+    padding: 100px 0;
+}

@@ -81,8 +81,8 @@ body{
   width: 100%;
 }
 
-#catalogo .carousel-control {
-  width: 4%;
+#catalogo .carousel-control { 
+  width: 4%; 
 }
 #catalogo .carousel-control.left,.carousel-control.right {
   background-image:none;
@@ -142,3 +142,4 @@ footer{
 	color: white;
 	padding: 30px 0px;
 }/*fin de section fotter*/
+

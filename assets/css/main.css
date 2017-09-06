@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Audiowide|Bree+Serif|Bubbler+One|Freckle+Face|Orbitron|Press+Start+2P');
 
 /*document css*/
 @import url('https://fonts.googleapis.com/css?family=Crete+Round');
@@ -8,9 +9,15 @@
 	margin: 0;
 	padding: 0;
 }
-body{
 
-}
+ a:hover{
+  text-decoration: none;
+ }
+/*home*/
+.navbar{
+  padding-top: 5px;
+  font-family: 'Baloo Tammudu';
+
 /*home*/
 .navbar{
   padding-top: 5px;
@@ -172,6 +179,7 @@ body{
 
 /* section de catalogo */
 #catalogo{
+  font-family: 'Orbitron';
   padding: 50px 0;
 }
 #catalogo img{
@@ -272,6 +280,7 @@ body{
 
 #catalogo-consolas {
   padding: 5em 0;
+  font-family: 'Orbitron';
 }
 
 #catalogo-consolas h2 {

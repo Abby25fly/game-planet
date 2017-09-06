@@ -1,4 +1,6 @@
 /*document css*/
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
 /*Section de home*/
 *{
 	box-sizing: border-box;
@@ -39,6 +41,9 @@ body{
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
   background-color: white;
 }
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+	color: black;
+}
 .navStore{
   padding-left: 30px;
 }
@@ -58,6 +63,7 @@ body{
 .videoDiv{
     padding-top: 30px;
     padding: 0px;
+		position: relative;
 }
 
 .videoGame {
@@ -193,6 +199,26 @@ body{
 	height: 100%;
 	align-items: center;
 }/* fin del section catalogo*/
+
+/* section de Nosotros */
+#nosotros{
+	background-color: #eae8e8;
+	padding: 100px 150px;
+  color: black;
+	font-family: 'Crete Round', serif;
+}
+.nosLista{
+	text-align: left;
+	text-decoration: none;
+	padding-top: 20px;
+}
+.nosText{
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+/* fin del section Nosotros*/
 
 /* --- section fotter ---*/
 .pie-de-pagina li {

@@ -129,6 +129,86 @@ body{
 	align-items: center;
 }/* fin del section catalogo*/
 
+/*Seccion Modals*/
+#xbox-color .modal-header, #xbox-color .panel-default>.panel-heading {
+  border-bottom: 1px solid #ddd;
+  background: rgba(11, 137, 14, 0.85);
+  color: white;
+}
+
+#nintendo-color .modal-header , #nintendo-color .panel-default>.panel-heading{
+  border-bottom: 1px solid #ddd;
+  background: rgba(219, 9, 9, 0.88);
+  color: white;
+}
+
+#play-color .modal-header , #play-color .panel-default>.panel-heading{
+  border-bottom: 1px solid #ddd;
+  background: #0d4472;
+  color: white;
+}
+
+.close {
+  float: right;
+  font-size: 25px;
+  color: #ddd;
+  opacity: 1;
+}
+
+
+#catalogo-consolas {
+  padding: 5em 0;
+}
+
+#catalogo-consolas h2 {
+  margin: 10vh auto;
+}
+.product:hover img {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
+.product img {
+  -webkit-transform:scale(.85);
+  transform:scale(.85);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: initial;
+  margin: 0 auto;
+  left: 0;
+  top: .5em;
+  right: 0;
+  max-height: 300px;
+}
+
+.product {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 35vh;
+}
+
+.product:hover h3 {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+
+.product h3 {
+  color: gray;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  -webkit-transform: translate3d(0,40px,0);
+  transform: translate3d(0,40px,0);
+}
+/*Fin seccion Modals*/
+
 /* --- section fotter ---*/
 .pie-de-pagina li {
 	list-style: none;
@@ -163,5 +243,6 @@ footer{
 	background-color: black;
 	color: white;
 	padding: 30px 0px;
-}/*fin de section fotter*/
+}
+/*fin de section fotter*/
 

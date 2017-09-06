@@ -26,7 +26,7 @@
         <span class="sr-only">Desplegar navegación</span>
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand logo" href="#"><img class="logoImg"src="assets/img/gameplanetLogo.png" alt=""></a>
+      <a class="navbar-brand logo" href="#home"><img class="logoImg"src="assets/img/gameplanetLogo.png" alt=""></a>
     </div>
 
     <div class="collapse navbar-collapse navbar-ex1-collapse mainNav">
@@ -38,12 +38,12 @@
         <input type="text" class="form-control" placeholder="Buscar">
       </div>
       <button type="submit" class="btn btnLupa btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
-      <a href="#"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
+      <a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
 
     </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
+        <li><a href="#">NOSOTROS</a></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           CATÁLOGO<b class="caret"></b>
@@ -54,13 +54,13 @@
           <li><a href="#">Play Station</a></li>
       </ul>
         </li>
-        <li><a href="#">CONTACTO</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Header - Video -->
-  <header class="container-fluid contVideo">
+  <header class="container-fluid contVideo" id="home">
 		<div class="col-lg-12 videoDiv">
 			<video class="videoGame" video autobuffer autoplay loop muted>
 				<source src="assets/img/gamesVideo.mp4" type="video/mp4">
@@ -68,6 +68,30 @@
 		</div>
 	</header>
 
+  <!-- Login User -->
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      	<div class="modal-dialog">
+  				<div class="loginmodal-container">
+  					<h1>Inicia Sesión</h1><br>
+            <a class="btn btn-block btn-social btn-facebook">
+              <i class="fa fa-facebook"></i> Sign in with Facebook
+            </a>
+            <a class="btn btn-block btn-social btn-google-plus">
+              <i class="fa fa-google-plus"></i> Sign in with Google
+            </a><br>
+  				  <form>
+  					<input type="text" name="user" placeholder="Usuario">
+  					<input type="password" name="pass" placeholder="Password">
+  					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+  				  </form>
+  				  <div class="login-help">
+  					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+  				  </div>
+  				</div>
+  			</div>
+  		 </div>
+
+<!-- CATALOGO -->
   <section id="catalogo">
       <div class="container">
           <div class="row">

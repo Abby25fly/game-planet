@@ -9,6 +9,7 @@ Como miembros del equipo tenemos :
 
  ### Scrum Master: 	Susy Talavera
 
- ### Scrum Teem: 	Melanie Ocharan 
+ ### Scrum Teem: 	
+ 				Melanie Ocharan 
 				Kely Añamuru
 				Abigail

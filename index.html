@@ -6,7 +6,6 @@
     <title>Game Planet</title>
     <meta http-equiv="X-UA-Compatible" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="ventor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="ventor/font-awesome-4.7.0/css/font-awesome.css">
@@ -16,197 +15,324 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
+
 <body>
-
-	<!-- Home -->
-  <section id="home">
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"
-        data-target=".navbar-ex1-collapse">MENU
-        <span class="sr-only">Desplegar navegación</span>
-        <i class="fa fa-bars"></i>
-      </button>
-      <a class="navbar-brand logo" href="#"><img class="logoImg"src="assets/img/gameplanetLogo.png" alt=""></a>
-    </div>
-
-    <div class="collapse navbar-collapse navbar-ex1-collapse mainNav">
-      <ul class="nav navbar-nav">
-        <li class="navStore"><a href="#">TIENDAS</a></li>
-      </ul>
-    <form class="navbar-form navbar-right" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Buscar">
-      </div>
-      <button type="submit" class="btn btnLupa btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
-      <a href="#"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
-
-    </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
-        <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    <!-- Home -->
+    <section id="home">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">MENU
+                    <span class="sr-only">Desplegar navegación</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand logo" href="#"><img class="logoImg"src="assets/img/gameplanetLogo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse mainNav">
+                <ul class="nav navbar-nav">
+                    <li class="navStore"><a href="#">TIENDAS</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                    <button type="submit" class="btn btnLupa btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <a href="#"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           CATÁLOGO<b class="caret"></b>
         </a>
-      <ul class="dropdown-menu">
-          <li><a href="#">Nintendo</a></li>
-          <li><a href="#">Xbox One</a></li>
-          <li><a href="#">Play Station</a></li>
-      </ul>
-        </li>
-        <li><a href="#">CONTACTO</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Header - Video -->
-  <header class="container-fluid contVideo">
-		<div class="col-lg-12 videoDiv">
-			<video class="videoGame" video autobuffer autoplay loop muted>
-				<source src="assets/img/gamesVideo.mp4" type="video/mp4">
-			</video>
-		</div>
-	</header>
-
-  <!-- Carrusel - Sliders -->
-  <section class="container-fluid Carrusel">
-    <div class="text-center">
-      <h3>Proximos Estrenos.</h3>
-    </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="assets/img/slideOfer.jpg" alt="" style="width:100%;">
-        </div>
-        <div class="item">
-          <img src="assets/img/slideOfer1.jpg" alt="" style="width:100%;">
-        </div>
-        <div class="item">
-          <img src="assets/img/slideOfer2.jpg" alt="" style="width:100%;">
-        </div>
-        <div class="item">
-          <img src="assets/img/slideOfer3.jpg" alt="" style="width:100%;">
-        </div>
-      </div>
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Nintendo</a></li>
+                            <li><a href="#">Xbox One</a></li>
+                            <li><a href="#">Play Station</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header - Video -->
+        <header class="container-fluid contVideo">
+            <div class="col-lg-12 videoDiv">
+                <video class="videoGame" video autobuffer autoplay loop muted>
+                    <source src="assets/img/gamesVideo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </header>
+        <section id="catalogo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"><span class="reverso ">Nintendo</span></div>
+                    <div id="myCarousel" class="carousel slide col-md-10 col-sm-12 col-xs-12">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>1</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>2</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>3</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>4</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>5</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>6</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>7</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>8</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>9</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>10</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>11</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>12</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                        </div>
+                        <!--/carousel-inner-->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                    <div class="col-md-1 "><a href="nintendo.html">Mas resultados</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1 "><span class="reverso ">Play Station</span></div>
+                    <div id="myCarousel2" class="carousel slide col-md-10 col-sm-12 col-xs-12">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>1</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>2</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>3</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>4</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>5</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>6</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>7</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>8</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>9</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>10</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>11</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>12</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                        </div>
+                        <!--/carousel-inner-->
+                        <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                        <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                    <div class="col-md-1"><a href="play.html">Mas resultados</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span class="reverso ">X-box</span></div>
+                    <div id="myCarousel3" class="carousel slide col-md-10">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>1</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>2</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>3</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>4</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>5</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>6</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>7</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>8</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                            <div class="item">
+                                <div class="row-fluid">
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>9</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>10</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>11</span></a></div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3"><a href="#x" class="thumbnail"><img src="https://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110" /><span>12</span></a></div>
+                                </div>
+                                <!--/row-fluid-->
+                            </div>
+                        </div>
+                        <!--/carousel-inner-->
+                        <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                        <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                    <div class="col-md-1"><a href="xbox.html">Mas resultados</a></div>
+                </div>
+        </section>
+        <!-- section catalogo - Carrusel - Sliders -->
+        <section class="container-fluid Carrusel">
+            <div class="text-center">
+                <h3>Proximos Estrenos.</h3>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/slideOfer.jpg" alt="" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/slideOfer1.jpg" alt="" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/slideOfer2.jpg" alt="" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/slideOfer3.jpg" alt="" style="width:100%;">
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
-  </section>
-
-
-<!-- DETALLE DE PRODUCTOS-->
-  <div class="container">
-    <img data-toggle="modal" data-target="#myModal" src="assets/img/mortal.jpg" alt="mortal">
- <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-   <div class="modal-dialog">
-     <!-- Modal content-->
-     <div class="modal-content">
-       <div class="modal-header col-md-12">
-         <button type="button" class="close" data-dismiss="modal">&times;</button>
-         <h4 class="modal-title text-uppercase">Mortal kombat xl</h4>
-       </div>
-       <div class="modal-body col-md-12">
-       <img class="col-md-4" src="assets/img/mortal.jpg" width="100%" alt="">
-<!--seccion precios-->
-       <div class="col-md-4">
-         <div class="panel-group">
-           <div class="panel panel-default">
-             <div class="panel-heading">
-                <h4 class="panel-title text-center text-uppercase">
+            </div>
+        </section>
+        <!-- DETALLE DE PRODUCTOS-->
+        <div class="container">
+            <img data-toggle="modal" data-target="#myModal" src="assets/img/mortal.jpg" alt="mortal">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header col-md-12">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title text-uppercase">Mortal kombat xl</h4>
+                        </div>
+                        <div class="modal-body col-md-12">
+                            <img class="col-md-4" src="assets/img/mortal.jpg" width="100%" alt="">
+                            <!--seccion precios-->
+                            <div class="col-md-4">
+                                <div class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title text-center text-uppercase">
                 <a data-toggle="collapse" href="#collapse1"><strong>Precios</strong></a>
                 </h4>
-             </div>
-             <div id="collapse1" class="panel-collapse collapse">
-               <ul class="list-group">
-                 <li class="list-group-item">Normal: <strong> $1,099.99</strong></li>
-                 <li class="list-group-item">En tienda: <strong> $999.99</strong></li>
-                 <li class="list-group-item" style="color: red">En oferta: <strong>$899.99</strong></li>
-               </ul>
-             </div>
-           </div>
- 	       </div>
-       </div>
-<!--Seccion de botones de compra-->
-       <div class="col-md-4">
-       	 <a href="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3fcmd%3d_request-money" class="btn btn-primary"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-       	 <a href="#demo" class="btn btn-primary" data-toggle="collapse"><span class="glyphicon glyphicon-plus"></span><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
-         <div id="demo" class="collapse">
-           <p>Se añadio a tu carrito</p>
-         </div>
-       </div>
-<!--Seccion de descripcion + video-->
-       <div class="col-md-12">
-         <div class="panel-group" id="accordion">
-           <div class="panel panel-default">
-             <div class="panel-heading">
-               <h4 class="panel-title">
+                                        </div>
+                                        <div id="collapse1" class="panel-collapse collapse">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Normal: <strong> $1,099.99</strong></li>
+                                                <li class="list-group-item">En tienda: <strong> $999.99</strong></li>
+                                                <li class="list-group-item" style="color: red">En oferta: <strong>$899.99</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Seccion de botones de compra-->
+                            <div class="col-md-4">
+                                <a href="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3fcmd%3d_request-money" class="btn btn-primary"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <a href="#demo" class="btn btn-primary" data-toggle="collapse"><span class="glyphicon glyphicon-plus"></span><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></a>
+                                <div id="demo" class="collapse">
+                                    <p>Se añadio a tu carrito</p>
+                                </div>
+                            </div>
+                            <!--Seccion de descripcion + video-->
+                            <div class="col-md-12">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse11"><strong>Detalles</strong></a>
                </h4>
-             </div>
-             <div id="collapse11" class="panel-collapse collapse in">
-               <div class="panel-body">Uno de los títulos más vendidos de 2015 ahora es XL! Mortal Kombat X Kompleta toda la experiencia con contenido nuevo y existente. Incluye juego principal, y los nuevos personajes jugables como Leatherface, Triborg, y Bo Rai Cho.y DLCs previos como Predator, Jason Voorhees, Tremor, Tanya, y Goro. </div>
-             </div>
-           </div>
-           <div class="panel panel-default">
-             <div class="panel-heading">
-               <h4 class="panel-title">
+                                        </div>
+                                        <div id="collapse11" class="panel-collapse collapse in">
+                                            <div class="panel-body">Uno de los títulos más vendidos de 2015 ahora es XL! Mortal Kombat X Kompleta toda la experiencia con contenido nuevo y existente. Incluye juego principal, y los nuevos personajes jugables como Leatherface, Triborg, y Bo Rai Cho.y DLCs previos como Predator, Jason Voorhees, Tremor, Tanya, y Goro. </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><strong>Información Adicional</strong></a>
                </h4>
-             </div>
-             <div id="collapse2" class="panel-collapse collapse">
-               <div class="panel-body">
-                 <p>UPC: 883929528738</p>
-                 <p>Estado Producto: Oferta</p>
-                 <p>Publisher: WARNER BROS GAMES</p>
-                 <p>Lanzamiento: 2016-03-04</p>
-                 <p>Clasificación: Mature</p>
-                 <p>Género: Peleas</p>
-               </div>
-             </div>
-           </div>
-           <div class="panel panel-default">
-             <div class="panel-heading">
-               <h4 class="panel-title">
+                                        </div>
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>UPC: 883929528738</p>
+                                                <p>Estado Producto: Oferta</p>
+                                                <p>Publisher: WARNER BROS GAMES</p>
+                                                <p>Lanzamiento: 2016-03-04</p>
+                                                <p>Clasificación: Mature</p>
+                                                <p>Género: Peleas</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
                  <a  data-toggle="collapse" data-parent="#accordion" href="#collapse3"><strong>Video referencial</strong></a>
                </h4>
-             </div>
-             <div id="collapse3" class="panel-collapse collapse">
-               <div class="panel-body">
-       	         <video width="100%" controls autoplay muted>
- 	                 <source src="assets/xbox/mortal_kombat_xl.mp4" type="video/mp4">
- 	                 </video>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-       </div>
-       </div>
-      </div>
-    </div>
-  </div>
-</section>
+                                        </div>
+                                        <div id="collapse3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <video width="100%" controls autoplay muted>
+                                                    <source src="assets/xbox/mortal_kombat_xl.mp4" type="video/mp4">
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="contacto">
         <div class="container-fluid">
             <div class="row">
@@ -270,7 +396,7 @@
             </span>
             </div>
         </div>
-        <div class="row">
+        <div class="row ">
             <div class="pie-de-pagina col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                 <ul>
                     <strong><p>INFORMACION <i class="fa fa-info-circle" aria-hidden="true"></i></p></strong>
@@ -282,7 +408,7 @@
             <div class="pie-de-pagina col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
                 <strong><p>SERVICIO AL CLIENTE <i class="fa fa-child" aria-hidden="true"></i></p></strong>
                 <ul>
-                    <li><a>Preguntas Frecuentes</a></li>
+                    <li><a class=""> Preguntas Frecuentes</a></li>
                     <li><a href="">Aviso de Privacidad</a></li>
                     <li><a>Terminos y condiciones generales</a></li>
                 </ul>
@@ -300,10 +426,6 @@
             <strong><p><i class="fa fa-globe" aria-hidden="true"></i> Arequipa-Peru</p></strong>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
-

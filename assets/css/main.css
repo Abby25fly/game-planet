@@ -80,8 +80,8 @@ body{
   width: 100%;
 }
 
-#catalogo .carousel-control { 
-  width: 4%; 
+#catalogo .carousel-control {
+  width: 4%;
 }
 #catalogo .carousel-control.left,.carousel-control.right {
   background-image:none;
@@ -97,7 +97,7 @@ body{
 }
 
 #catalogo .row{
-	height: 200px;
+	height: 300px;
 	display: flex;
 }
 
@@ -106,6 +106,25 @@ body{
 	align-items: center;
 }/* fin del section catalogo*/
 
+/*section Contacto*/
+#contact {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.text-danger {
+    color: #a94442;
+    padding-left: 20px;
+}
+.form-group input{
+	height: 50px;
+}
+.btn-lx{
+	height: 40px;
+    width: 140px;
+    color: #fff;
+    background-color: #1a1b1c;
+    border-color: #0f1922;
+} /*fin de contacto*/
 /* --- section fotter ---*/
 .pie-de-pagina li {
 	list-style: none;

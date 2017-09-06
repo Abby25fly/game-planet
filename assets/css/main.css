@@ -6,11 +6,12 @@
 	padding: 0;
 }
 body{
-  font-family: 'Baloo Tammudu', cursive;
+
 }
 /*home*/
 .navbar{
   padding-top: 5px;
+	font-family: 'Baloo Tammudu', cursive;
 }
 .navbar a{
   font-weight: bold;
@@ -71,8 +72,19 @@ body{
     background-repeat: no-repeat;
     padding: 0;
 }
+.carouselPromo{
+	width: 60%;
+}
+.promoText{
+	font-family: 'Baloo Tammudu', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
 .Carrusel{
   padding: 0;
+	margin: 60px auto;
 }/* fin de section home*/
 
 /* section de catalogo */

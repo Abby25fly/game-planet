@@ -80,8 +80,8 @@ body{
   width: 100%;
 }
 
-#catalogo .carousel-control { 
-  width: 4%; 
+#catalogo .carousel-control {
+  width: 4%;
 }
 #catalogo .carousel-control.left,.carousel-control.right {
   background-image:none;
@@ -97,7 +97,7 @@ body{
 }
 
 #catalogo .row{
-	height: 200px;
+	height: 300px;
 	display: flex;
 }
 

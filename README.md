@@ -12,4 +12,4 @@ Como miembros del equipo tenemos :
  ### Scrum Teem: 	
  				Melanie Ocharan 
 				Kely Añamuro
-				Abigail
+				Abigail De La Flor

@@ -1,7 +1,8 @@
 
 $(document).ready(function() {
     $('.carousel').carousel({
-      interval: false
+      interval: 10000
   })
+    
 });
 

@@ -1,4 +1,4 @@
-$('#slide').carousel({
+        $('#slide').carousel({
                 interval: 5000
         });
  
